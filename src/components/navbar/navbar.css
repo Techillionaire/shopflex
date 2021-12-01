@@ -1,0 +1,42 @@
+.navbar{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    min-height: 70px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    z-index: 2;
+}
+.logo{
+    margin: 0 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links a{
+    margin: 30px;
+}
+
+.links a:hover{
+    font-weight: bold;
+}
+
+.icons i{
+    margin-left: 5px;
+    padding-right: 10px;
+    font-size: 27px;
+    cursor: pointer;
+}

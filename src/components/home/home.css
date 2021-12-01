@@ -1,0 +1,38 @@
+.container{
+    margin: 0;
+}
+
+.main{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    height: calc(100vh - 70px);
+    top: 83px;
+    position: relative;
+    
+}
+
+ .preview:nth-child(1){
+    flex: 0 0 350px;
+    background-color: white;
+ }
+
+ .preview:nth-child(3){
+    flex: 0 0 350px;
+    background-color: white;
+ }
+
+ .middleBlog{
+    flex: 1 0 auto;
+    background-color: white;
+ }
+
+
+
+footer{
+    background-color: lightgrey;
+    min-height: 200px;
+}
+
+
+
