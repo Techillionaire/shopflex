@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Home from "./components/home/Home";
 import Chat from "./components/chat/Chat";
+import Blog from "./components/blog/Blog";
 import Login from "./components/login/Login";
 
 const App = () => {
@@ -55,7 +56,7 @@ const App = () => {
 
     return (
       <div className="App">
-        {user ? (
+        {/* {user ? (
           <Home handleSignOut={handleSignOut} />
         ) : (
           <Login 
@@ -71,9 +72,10 @@ const App = () => {
             emailError={emailError}
             passwordError={passwordError}
             />
-        )}
+        )} */}
         {/* <Home /> */}
         {/* <Chat /> */}
+        <Blog />
       </div>
     )
 }

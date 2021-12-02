@@ -30,7 +30,7 @@
     margin: 30px;
 }
 
-.links a:hover{
+.links .a:hover{
     font-weight: bold;
 }
 
