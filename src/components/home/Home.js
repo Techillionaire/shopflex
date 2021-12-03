@@ -13,15 +13,7 @@ const Home = () => {
             </header>
 
             <section className="main">
-                <div className="preview">
-                    <ShopPreview />
-                </div>
-                <div className="middleBlog">
-                    <BlogPreview />
-                </div>
-                <div className="preview">
-                    <ChatList />
-                </div>
+               
 
             </section>
         </div>

@@ -2,7 +2,7 @@ import "./shopPreview.css";
 
 const ShopPreview = () => {
     return (
-        <div>
+        <div class="shopPreview">
             welcome to shop
         </div>
     )

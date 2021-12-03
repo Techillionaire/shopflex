@@ -5,7 +5,7 @@ import './blogPreview.css'
 
 const BlogPreview = () => {
     return (
-        <div>
+        <div className="blogPreview">
 
      
          

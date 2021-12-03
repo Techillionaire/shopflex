@@ -24,7 +24,7 @@ const App = () => {
   }
 
   const handleSignUp = () => {
-    clearErrors();
+    // clearErrors();
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
   }
@@ -56,7 +56,7 @@ const App = () => {
 
     return (
       <div className="App">
-        {/* {user ? (
+        {user ? (
           <Home handleSignOut={handleSignOut} />
         ) : (
           <Login 
@@ -72,10 +72,10 @@ const App = () => {
             emailError={emailError}
             passwordError={passwordError}
             />
-        )} */}
+        )}
         {/* <Home /> */}
         {/* <Chat /> */}
-        <Blog />
+        {/* <Blog /> */}
       </div>
     )
 }

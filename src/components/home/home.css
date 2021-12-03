@@ -3,23 +3,26 @@
 }
 
 .main{
-    background-color: #f4f3f8;
+
+    background-color: f4f3f8;
     display: flex;
     flex-flow: row wrap;
+    height: calc(100vh - 70px);
     top: 83px;
     position: relative;
     
 }
 
  .preview:nth-child(1){
-    flex: 0 0 350px;
+    flex: 0 0 300px;
     background-color: hsl(0, 0%, 94%);
  }
 
  .preview:nth-child(3){
-    flex: 0 0 350px;
+    flex: 0 0 300px;
     background-color: hsl(0, 0%, 94%);
     border-left: 1px solid #ebe7fb;
+    border-right: 1px solid #ebe7fb;
  }
 
  .middleBlog{
